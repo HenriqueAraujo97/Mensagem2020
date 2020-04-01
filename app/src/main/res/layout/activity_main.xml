@@ -7,22 +7,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonMensagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginLeft="56dp"
+        android:onClick="sendMessage"
         android:text="@string/button"
-        app:layout_constraintBottom_toBottomOf="@+id/editText"
-        app:layout_constraintStart_toEndOf="@+id/editText" />
+        app:layout_constraintBottom_toBottomOf="@+id/editTextMensagem"
+        app:layout_constraintStart_toEndOf="@+id/editTextMensagem" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextMensagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="52dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="Mensagem"
